@@ -6,27 +6,19 @@ h1 {
   font-family: "Jost", sans-serif;
 }
 h2 {
-  font-size: 2.8em;
+  font-size: 1.8em;
 }
 h3 {
-  font-size: 2.5em; 
-}
-h4 {
   font-size: 2em; 
 }
-h5 {
-  font-size: 1.8em; 
-}
-h6 {
-  font-size: 1.5em; 
-}
+
 p {
   line-height: 33px;
   font-weight: 500;
   font-size: 1.4em;
   font-family: "Assistant", sans-serif;
 }
-h2, h3, h4 ,h5, h6, summary {
+h2, h3, summary {
   font-family: "Dosis", sans-serif;
 }
 
@@ -65,7 +57,7 @@ main {
 .hero-text h1{
   line-height: 50px;
 }
-.hero-text h1, h5{
+.hero-text h1, h2{
   margin: 20px;
 }
 
@@ -87,7 +79,7 @@ main {
   height: auto;
   padding-top: 30px;
 }
-.content h5 {
+.content h3 {
   margin: 5% 0 5% 0;
 }
 .text {
@@ -96,7 +88,7 @@ main {
   padding: 20px;
   text-align: left;
 }
-.text h5 {
+.text h3 {
   margin: 30px 0 15px 0;
 }
 .text p {
@@ -137,16 +129,16 @@ main {
 
 
 /* Card */
-.gallery h4 {
+.gallery h2 {
   padding-left: 30px;
   margin: 30px 0 10px 0;
 }
-.gallery h5 {
+.gallery h3 {
   text-align: center;
   margin-top: 15%;
   color: #132A49;
 }
-.gallery h5, p {
+.gallery h3, p {
   margin: 0;
 }
 .gallery p {
@@ -217,7 +209,7 @@ font-weight: 500;
   max-width: 100%;
   margin-top: 15%;
 }
-.accordion-container h4 {
+.accordion-container h2 {
   margin: 30px 0 30px 0;
 }
 details {
@@ -334,7 +326,7 @@ a:hover {
     flex-direction: column;
     padding-top: 50px;
   }
-  .gallery h4 {
+  .gallery h2 {
     padding: 0;
   }
   .card-container {
